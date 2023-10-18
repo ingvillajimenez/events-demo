@@ -3,6 +3,7 @@ import "./App.css";
 import AnnoyingForm from "./AnnoyingForm";
 import CopyDemo from "./CopyDemo";
 import WiseSquareWithProps from "./WiseSquareWithProps";
+import ExperimentalSquare from "./ExperimentalSquare";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>React Events!!</h1>
       <WiseSquare />
       <WiseSquareWithProps />
+      <ExperimentalSquare />
     </div>
   );
 }
